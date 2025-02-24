@@ -13,15 +13,16 @@ body {
 
 .container {
   display: block;
-  width: 50%;
   margin: auto;
+  max-width: 400px; 
+  transform: scale(0.8);
 }
 
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border: 10px solid #ff66b2; 
   border-radius: 20%;
   transition: all 0.2s ease-in-out;
@@ -123,6 +124,7 @@ body::after {
   box-shadow: 0 0 15px rgba(255, 51, 133, 0.8); 
   font-family: "Comic Sans MS", cursive, sans-serif; 
 }
+
 
 footer {
   text-align: center;
